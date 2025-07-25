@@ -1,0 +1,10 @@
+# ninja log v5
+31	2258	7751648592648816	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f1d53fc0f651dde3
+0	2334	7751648593349748	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	474c0ea37613fd49
+24	2389	7751648593970574	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f56a4b9b7cff771b
+61	2409	7751648594121654	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	94abe5d4ca3a1f36
+16	2462	7751648594847840	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ea8e2f4d4cf65021
+49	2745	7751648597670653	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e038bfb228ca0acd
+41	3001	7751648600087659	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	76dd172cab7fa5d1
+8	3043	7751648600608465	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	646251ab2a88db7a
+3044	3165	7751648601911495	D:/Unity Projects/Guess the meme - test task/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/9n3h343u/obj/arm64-v8a/libgame.so	fe4c10edd7bad8ec

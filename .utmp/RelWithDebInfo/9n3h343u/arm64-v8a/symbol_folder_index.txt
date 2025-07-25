@@ -1,0 +1,1 @@
+D:\Unity Projects\Guess the meme - test task\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\9n3h343u\obj\arm64-v8a

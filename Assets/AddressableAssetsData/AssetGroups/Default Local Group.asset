@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: a0a01ed62072d6c45b4acbb0a6da2fc8
+  m_SerializeEntries:
+  - m_GUID: 005e875367751954691d5581979c9fe5
+    m_Address: Tung Tung Tung Sahur
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ef5d3368ab7e4a429ad67e930df3014
+    m_Address: Spawn Area
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11a5937c18c5ea44c8fd27ee638d828f
+    m_Address: Ballerina Cappuccina
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1547327a582676a43afcde8b8bd69aba
+    m_Address: Window-splash-screen-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19eee9a8d7c588e419003d7252b800b2
+    m_Address: Audio Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21aa373584474b1479ae49a4d8b99add
+    m_Address: Character
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c1b01d5c427f0e4ebce75ba7ccefe9a
+    m_Address: MemeData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c3f27f119c8dfd43842c27786a50a72
+    m_Address: Window-pause-menu-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3218e2e066204794788a5153375f4577
+    m_Address: Window-settings-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33b689e387bb6c34e8eb131e05b58206
+    m_Address: Actor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 359ee765c3b59f74aa6c92ac4a4e578c
+    m_Address: Window-win-game-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 403b2fa1554747749848296a25f4dddb
+    m_Address: AudioData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41cb379c3b3ac7648895d1f1073bea96
+    m_Address: Meme-board-mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 430010e415e5d0841bd573e4a8c0f96b
+    m_Address: Main Camera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bfe6f524229ea64a84ee80b49c77884
+    m_Address: ActorData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fbcebf5f07c7f344936d47768742bf9
+    m_Address: Assets/Project/Art/Audio/mobile-casual-video-game-music.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78bfaeb8043364a40809074df80d994b
+    m_Address: Window-main-menu-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e3cbdae1d8f23b419d3212a9d3a3214
+    m_Address: Bombardiro Crocodilo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d723ef28d8c7a142853a4bbe670bec6
+    m_Address: Brr Brr Patapim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90bac99dc822bf641b140cdc291b845e
+    m_Address: FS002_Day
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90fd9624410965841a17a9c80e405954
+    m_Address: Zone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 966a93305093ccc4da8865c905e80c55
+    m_Address: LevelData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ca22510633fbfd4399f1704cd9d5c72
+    m_Address: FS002_Day
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5a9b4653506dc54aa585e98f4b850e7
+    m_Address: Window-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9232c7f10f18db4a9bb1cea505a6a8a
+    m_Address: Assets/Project/Art/Audio/level-passed.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b242fcd4c4ed9b44d82f92c130843911
+    m_Address: Tralalero Tralala
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3cc49bc0ef59a74abb78c3e02bda824
+    m_Address: Window-gameplay-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8e507513d0615e47b1ef16fead0650c
+    m_Address: Assets/Project/Art/Audio/button-click.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bab1d2cca8c531640a31412427dde075
+    m_Address: Assets/Project/Art/Audio/lose.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd2aeb74d61675547b66c0a765ef6ce3
+    m_Address: Banner
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed0974e6dc6151e4f90b491026d548d7
+    m_Address: Window-loose-game-prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6cecf47013671d42bbb9b459c580cae
+    m_Address: PlayerData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffb0ea62437641d4699e5c222bec5493
+    m_Address: CoreAudioMixer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ab617ef100f87bd4e81cfbf8f53e8daa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2e78415713ea0ce4aa51d42494a8d280, type: 2}
+    - {fileID: 11400000, guid: 2d316ff06b0cc5643a5d1f2b9119f87e, type: 2}
