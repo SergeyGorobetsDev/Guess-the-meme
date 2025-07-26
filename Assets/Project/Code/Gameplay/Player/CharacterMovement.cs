@@ -55,7 +55,9 @@ namespace Assets.Project.Code.Common.Player
 
         private void Update()
         {
-            if (characterController == null || !canMove)
+            if (characterController == null ||
+                !canMove ||
+                characterCam == null)
                 return;
 
             MoveAndRotate(direction);
@@ -101,6 +103,5 @@ namespace Assets.Project.Code.Common.Player
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
-
     }
 }

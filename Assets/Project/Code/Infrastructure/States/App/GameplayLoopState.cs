@@ -72,6 +72,9 @@ namespace Assets.Project.Code.Infrastructure.States.App
             timer.OnTimerComplete -= TimerFinished;
             timer.StopTimer();
             usedMemes.Clear();
+
+            actorsSpawner.DespawnActors();
+            actorsSpawner.DespawnPlayer();
         }
 
         private void TimerFinished()
@@ -115,7 +118,8 @@ namespace Assets.Project.Code.Infrastructure.States.App
         {
             ZoneTrigger[] zones = zoneProvider.GetZoneTriggers();
 
-            int rand = Random.Range(0, 1);
+            int rand = Random.Range(0, 2);
+            Debug.Log($"Setting up zones with meme ID: {id}, Random value: {rand}");
             zones[0].SetZoneCorrectness(rand == 0 ? ZoneCorrectness.Correct : ZoneCorrectness.Incorrect,
                                         rand == 0 ? staticDataService.MemeImages[id] : staticDataService.MemeImages[GetRandomIndexExcluding(id, staticDataService.MemeImages.Count)]);
             zones[1].SetZoneCorrectness(rand == 1 ? ZoneCorrectness.Correct : ZoneCorrectness.Incorrect,
@@ -149,7 +153,7 @@ namespace Assets.Project.Code.Infrastructure.States.App
                 if (actor.ZoneCorrectnessm == ZoneCorrectness.Incorrect)
                     actor.gameObject.SetActive(false);
 
-            if (!actorsProvider.Actors.Any(a => a.gameObject.activeSelf))
+            if (actorsProvider.Actors.All(a => !a.gameObject.activeSelf))
                 stateMachine.SetState<GameplayWinState>();
         }
 

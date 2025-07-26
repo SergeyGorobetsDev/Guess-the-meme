@@ -32,7 +32,7 @@ namespace Assets.Project.Code.Runtime.Gameplay.Common.WindowsSystem.Windows
 
             exitButton.onClick.AddListener(() =>
             {
-                stateMachine.SetState<MetaState>();
+                stateMachine.SetState<GameplayEndState>();
             });
         }
 

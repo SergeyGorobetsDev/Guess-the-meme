@@ -70,6 +70,7 @@ namespace Assets.Project.Code.Gameplay.Actors
         public void Reset()
         {
             ZoneCorrectnessm = ZoneCorrectness.None;
+            stateMachine.SetState<WaitState>();
         }
     }
 }

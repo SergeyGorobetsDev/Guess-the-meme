@@ -39,6 +39,7 @@ namespace Assets.Project.Code.Infrastructure.Installers
                 statesFactory.Create<GameplayLooseState>(),
                 statesFactory.Create<GameplayWinState>(),
                 statesFactory.Create<GameplayRestartState>(),
+                statesFactory.Create<GameplayEndState>(),
                 statesFactory.Create<AppQuitState>()
             );
 
@@ -106,6 +107,7 @@ namespace Assets.Project.Code.Infrastructure.Installers
             Container.BindInterfacesAndSelfTo<GameplayLooseState>().FromNew().AsSingle();
             Container.BindInterfacesAndSelfTo<GameplayWinState>().FromNew().AsSingle();
             Container.BindInterfacesAndSelfTo<GameplayRestartState>().FromNew().AsSingle();
+            Container.BindInterfacesAndSelfTo<GameplayEndState>().FromNew().AsSingle();
             Container.BindInterfacesAndSelfTo<AppQuitState>().FromNew().AsSingle();
         }
 

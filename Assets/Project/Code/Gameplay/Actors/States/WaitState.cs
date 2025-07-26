@@ -18,9 +18,12 @@ namespace Assets.Project.Code.Gameplay.Actors
 
         public override async UniTask OnEnterAsync()
         {
-            agent.isStopped = true;
+            if (agent.isOnNavMesh)
+            {
+                agent.isStopped = true;
+                agent.ResetPath();
+            }
             rigidbody.isKinematic = true;
-            agent.ResetPath();
             await UniTask.CompletedTask;
         }
     }

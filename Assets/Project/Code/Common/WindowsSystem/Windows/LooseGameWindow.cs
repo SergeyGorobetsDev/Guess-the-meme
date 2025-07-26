@@ -38,7 +38,7 @@ namespace Assets.Project.Code.Runtime.Gameplay.Common.WindowsSystem.Windows
             {
                 audioPlayer.Play("button-click", MixerTarget.UI);
 
-                stateMachine.SetState<MetaState>();
+                stateMachine.SetState<GameplayEndState>();
             });
         }
 

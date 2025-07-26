@@ -25,6 +25,9 @@ namespace Assets.Project.Code.Common.Player
         private IPlayerInputReader playerInputReader;
         private ICameraProvider cameraProvider;
 
+        public CharacterController CharacterController => characterController;
+        public CharacterMovement CharacterMovement => characterMovement;
+
         [field: SerializeField]
         public ZoneCorrectness ZoneCorrectnessm { get; private set; } = ZoneCorrectness.None;
         [field: SerializeField]
@@ -57,6 +60,7 @@ namespace Assets.Project.Code.Common.Player
 
         public void Reset()
         {
+            characterMovement.SetCanMove(false);
             ZoneCorrectnessm = ZoneCorrectness.None;
             IsInZone = false;
         }

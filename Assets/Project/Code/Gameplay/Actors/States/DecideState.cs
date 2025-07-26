@@ -8,6 +8,9 @@ namespace Assets.Project.Code.Gameplay.Actors
 {
     public sealed class DecideState : State
     {
+        private const int MinWaitTime = 100;
+        private const int MaxWaitTime = 300;
+
         private readonly NavMeshAgent agent;
         private readonly IZoneProvider zoneProvider;
 
@@ -19,6 +22,7 @@ namespace Assets.Project.Code.Gameplay.Actors
 
         public override async UniTask OnEnterAsync()
         {
+            await UniTask.Delay(Random.Range(MinWaitTime, MaxWaitTime));
             ZoneTrigger[] zones = zoneProvider.GetZoneTriggers();
             Vector3 targetPosition = zones[Random.Range(0, zones.Length)].transform.position;
             stateMachine.SetState<MoveToZoneState, Vector3>(targetPosition);
