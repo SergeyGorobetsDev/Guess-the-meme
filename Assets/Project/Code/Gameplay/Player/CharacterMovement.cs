@@ -19,6 +19,7 @@ namespace Assets.Project.Code.Common.Player
 
         private Vector3 velocity;
         private bool isGrounded;
+        [SerializeField]
         private bool canMove = true;
 
         private CharacterController characterController;
@@ -37,6 +38,15 @@ namespace Assets.Project.Code.Common.Player
             this.cameraProvider = cameraProvider;
             this.characterCam = cameraProvider.GetCamera();
 
+            if (playerInputReader != null)
+            {
+                playerInputReader.MovePerformed += OnDirectionChanged;
+                playerInputReader.MoveCanceled += OnDirectionChanged;
+            }
+        }
+
+        private void OnEnable()
+        {
             if (playerInputReader != null)
             {
                 playerInputReader.MovePerformed += OnDirectionChanged;
