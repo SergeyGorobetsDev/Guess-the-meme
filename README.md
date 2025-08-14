@@ -1,1 +1,1 @@
-# Guess the meme - test task
+# Guess the meme - casual game
